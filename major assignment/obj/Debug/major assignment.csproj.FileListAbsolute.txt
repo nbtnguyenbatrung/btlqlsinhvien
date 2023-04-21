@@ -1,0 +1,62 @@
+D:\major assignment\major assignment\bin\Debug\major assignment.exe.config
+D:\major assignment\major assignment\bin\Debug\major assignment.exe
+D:\major assignment\major assignment\bin\Debug\major assignment.pdb
+D:\major assignment\major assignment\obj\Debug\major_assignment.Properties.Resources.resources
+D:\major assignment\major assignment\obj\Debug\major assignment.csproj.GenerateResource.cache
+D:\major assignment\major assignment\obj\Debug\major assignment.csproj.CoreCompileInputs.cache
+D:\major assignment\major assignment\obj\Debug\major assignment.exe
+D:\major assignment\major assignment\obj\Debug\major assignment.pdb
+D:\major assignment\major assignment\obj\Debug\major assignment.csproj.CopyComplete
+D:\major assignment\major assignment\obj\Debug\major_assignment.component.Frm_connect.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.Frm_main.resources
+D:\major assignment\major assignment\bin\Debug\System.Memory.dll
+D:\major assignment\major assignment\bin\Debug\System.Numerics.Vectors.dll
+D:\major assignment\major assignment\bin\Debug\System.Buffers.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\major assignment\major assignment\bin\Debug\EnvDTE.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\major assignment\major assignment\bin\Debug\stdole.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\major assignment\major assignment\obj\Debug\major_assignment.component.Frm_login.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_department.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_subject.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_teacher.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_student.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_student_subject.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_diemthi.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_bonus.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_discipline.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_policy.resources
+D:\major assignment\major assignment\bin\Debug\qlhocvien.accdb
+D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\major assignment\major assignment\obj\Debug\major_assignment.report.Frm_tksinhvien.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.report.Frm_xuat.resources
+D:\major assignment\major assignment\obj\Debug\RdlCompile.cache
+D:\major assignment\major assignment\obj\Debug\RdlCompile.compiled
+D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\major assignment\major assignment\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\major assignment\major assignment\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\major assignment\major assignment\obj\Debug\major assignment.exe.config
+D:\major assignment\major assignment\obj\Debug\major assignment.csproj.AssemblyReference.cache

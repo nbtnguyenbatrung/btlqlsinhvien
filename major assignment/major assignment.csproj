@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C051F404-67D5-456F-847A-20B91025E7D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>major_assignment</RootNamespace>
+    <AssemblyName>major assignment</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream">
+      <HintPath>..\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.MSXML, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\Microsoft.MSXML.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\librarian\bin\Debug\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\librarian\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design">
+      <HintPath>..\bin\Debug\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <HintPath>..\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\bin\Debug\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="component\CalendarColumn.cs" />
+    <Compile Include="component\CalendarColumn.Designer.cs">
+      <DependentUpon>CalendarColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="component\DataService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="component\Frm_connect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="component\Frm_connect.Designer.cs">
+      <DependentUpon>Frm_connect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="component\Frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="component\Frm_login.Designer.cs">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="component\Uti.cs" />
+    <Compile Include="control\Ctr_student.cs" />
+    <Compile Include="control\Ctr_subject.cs" />
+    <Compile Include="control\Ctr_account.cs" />
+    <Compile Include="control\Ctr_department.cs" />
+    <Compile Include="control\Ctr_teacher.cs" />
+    <Compile Include="data\Data_account.cs" />
+    <Compile Include="data\Data_department.cs" />
+    <Compile Include="data\Data_student.cs" />
+    <Compile Include="data\Data_subject.cs" />
+    <Compile Include="data\Data_teacher.cs" />
+    <Compile Include="Frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_main.Designer.cs">
+      <DependentUpon>Frm_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="information\Inf_account.cs" />
+    <Compile Include="information\Inf_department.cs" />
+    <Compile Include="information\Inf_student.cs" />
+    <Compile Include="information\Inf_subject.cs" />
+    <Compile Include="information\Inf_teacher.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qlhocvienDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qlhocvienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="qlhocvienDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qlhocvienDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="qlhocvienDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qlhocvienDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="report\Frm_tksinhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\Frm_tksinhvien.Designer.cs">
+      <DependentUpon>Frm_tksinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\Frm_xuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\Frm_xuat.Designer.cs">
+      <DependentUpon>Frm_xuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_bonus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_bonus.Designer.cs">
+      <DependentUpon>Frm_bonus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_department.Designer.cs">
+      <DependentUpon>Frm_department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_diemthi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_diemthi.Designer.cs">
+      <DependentUpon>Frm_diemthi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_discipline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_discipline.Designer.cs">
+      <DependentUpon>Frm_discipline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_policy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_policy.Designer.cs">
+      <DependentUpon>Frm_policy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_student.Designer.cs">
+      <DependentUpon>Frm_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_student_subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_student_subject.Designer.cs">
+      <DependentUpon>Frm_student_subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_subject.Designer.cs">
+      <DependentUpon>Frm_subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_teacher.Designer.cs">
+      <DependentUpon>Frm_teacher.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="component\Frm_connect.resx">
+      <DependentUpon>Frm_connect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="component\Frm_login.resx">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_main.resx">
+      <DependentUpon>Frm_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="report\Frm_tksinhvien.resx">
+      <DependentUpon>Frm_tksinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\Frm_xuat.resx">
+      <DependentUpon>Frm_xuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\Report1.rdlc" />
+    <EmbeddedResource Include="view\Frm_bonus.resx">
+      <DependentUpon>Frm_bonus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_department.resx">
+      <DependentUpon>Frm_department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_diemthi.resx">
+      <DependentUpon>Frm_diemthi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_discipline.resx">
+      <DependentUpon>Frm_discipline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_policy.resx">
+      <DependentUpon>Frm_policy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_student.resx">
+      <DependentUpon>Frm_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_student_subject.resx">
+      <DependentUpon>Frm_student_subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_subject.resx">
+      <DependentUpon>Frm_subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_teacher.resx">
+      <DependentUpon>Frm_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="qlhocvienDataSet.xsc">
+      <DependentUpon>qlhocvienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="qlhocvienDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>qlhocvienDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="qlhocvienDataSet.xss">
+      <DependentUpon>qlhocvienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="qlhocvienDataSet1.xsc">
+      <DependentUpon>qlhocvienDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="qlhocvienDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>qlhocvienDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="qlhocvienDataSet1.xss">
+      <DependentUpon>qlhocvienDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="qlhocvienDataSet2.xsc">
+      <DependentUpon>qlhocvienDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="qlhocvienDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>qlhocvienDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="qlhocvienDataSet2.xss">
+      <DependentUpon>qlhocvienDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="connectxml.xml" />
+    <Content Include="qlhocvien.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

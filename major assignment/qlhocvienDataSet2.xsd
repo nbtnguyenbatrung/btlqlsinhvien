@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="qlhocvienDataSet2" targetNamespace="http://tempuri.org/qlhocvienDataSet2.xsd" xmlns:mstns="http://tempuri.org/qlhocvienDataSet2.xsd" xmlns="http://tempuri.org/qlhocvienDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="qlhocvienConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="qlhocvienConnectionString (Settings)" PropertyReference="ApplicationSettings.major_assignment.Properties.Settings.GlobalReference.Default.qlhocvienConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewpointTableAdapter" GeneratorDataComponentClassName="viewpointTableAdapter" Name="viewpoint" UserDataComponentName="viewpointTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="qlhocvienConnectionString (Settings)" DbObjectName="viewpoint" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT subjectId, studentName, teacherName, courseNumber, point FROM viewpoint</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="subjectId" DataSetColumn="subjectId" />
+              <Mapping SourceColumn="studentName" DataSetColumn="studentName" />
+              <Mapping SourceColumn="teacherName" DataSetColumn="teacherName" />
+              <Mapping SourceColumn="courseNumber" DataSetColumn="courseNumber" />
+              <Mapping SourceColumn="point" DataSetColumn="point" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="qlhocvienDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="qlhocvienDataSet2" msprop:Generator_UserDSName="qlhocvienDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viewpoint" msprop:Generator_TableClassName="viewpointDataTable" msprop:Generator_TableVarName="tableviewpoint" msprop:Generator_TablePropName="viewpoint" msprop:Generator_RowDeletingName="viewpointRowDeleting" msprop:Generator_RowChangingName="viewpointRowChanging" msprop:Generator_RowEvHandlerName="viewpointRowChangeEventHandler" msprop:Generator_RowDeletedName="viewpointRowDeleted" msprop:Generator_UserTableName="viewpoint" msprop:Generator_RowChangedName="viewpointRowChanged" msprop:Generator_RowEvArgName="viewpointRowChangeEvent" msprop:Generator_RowClassName="viewpointRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="subjectId" msprop:Generator_ColumnVarNameInTable="columnsubjectId" msprop:Generator_ColumnPropNameInRow="subjectId" msprop:Generator_ColumnPropNameInTable="subjectIdColumn" msprop:Generator_UserColumnName="subjectId" type="xs:int" minOccurs="0" />
+              <xs:element name="studentName" msprop:Generator_ColumnVarNameInTable="columnstudentName" msprop:Generator_ColumnPropNameInRow="studentName" msprop:Generator_ColumnPropNameInTable="studentNameColumn" msprop:Generator_UserColumnName="studentName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="teacherName" msprop:Generator_ColumnVarNameInTable="columnteacherName" msprop:Generator_ColumnPropNameInRow="teacherName" msprop:Generator_ColumnPropNameInTable="teacherNameColumn" msprop:Generator_UserColumnName="teacherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="courseNumber" msprop:Generator_ColumnVarNameInTable="columncourseNumber" msprop:Generator_ColumnPropNameInRow="courseNumber" msprop:Generator_ColumnPropNameInTable="courseNumberColumn" msprop:Generator_UserColumnName="courseNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="point" msprop:Generator_ColumnVarNameInTable="columnpoint" msprop:Generator_ColumnPropNameInRow="point" msprop:Generator_ColumnPropNameInTable="pointColumn" msprop:Generator_UserColumnName="point" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
