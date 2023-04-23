@@ -31,13 +31,19 @@ D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_bonus.r
 D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_discipline.resources
 D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_policy.resources
 D:\major assignment\major assignment\bin\Debug\qlhocvien.accdb
-D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.Common.dll
-D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
 D:\major assignment\major assignment\obj\Debug\major_assignment.report.Frm_tksinhvien.resources
 D:\major assignment\major assignment\obj\Debug\major_assignment.report.Frm_xuat.resources
 D:\major assignment\major assignment\obj\Debug\RdlCompile.cache
 D:\major assignment\major assignment\obj\Debug\RdlCompile.compiled
-D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.ReportViewer.Common.DLL
+D:\major assignment\major assignment\bin\Debug\DevComponents.DotNetBar2.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\major assignment\major assignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\major assignment\major assignment\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\major assignment\major assignment\bin\Debug\System.Buffers.xml
+D:\major assignment\major assignment\bin\Debug\System.Memory.xml
+D:\major assignment\major assignment\bin\Debug\System.Numerics.Vectors.xml
+D:\major assignment\major assignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\major assignment\major assignment\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
 D:\major assignment\major assignment\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
 D:\major assignment\major assignment\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
@@ -48,15 +54,4 @@ D:\major assignment\major assignment\bin\Debug\pt\Microsoft.ReportViewer.Common.
 D:\major assignment\major assignment\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
 D:\major assignment\major assignment\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
 D:\major assignment\major assignment\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-D:\major assignment\major assignment\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-D:\major assignment\major assignment\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
 D:\major assignment\major assignment\obj\Debug\major assignment.exe.config
-D:\major assignment\major assignment\obj\Debug\major assignment.csproj.AssemblyReference.cache
