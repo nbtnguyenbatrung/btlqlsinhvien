@@ -57,31 +57,40 @@ namespace major_assignment.view
 
             else
             {
-                conn.Open();
-                string select1 = "Select departmentId from tb_student where departmentId=" + txtmakh.Text ;
-                OleDbCommand cmd1 = new OleDbCommand(select1, conn);
-                OleDbDataReader reader1 = cmd1.ExecuteReader();
 
-                if (reader1.Read())
-                {
-                    MessageBox.Show("Khoa đang được sử dụng không thể xóa ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-                else if (MessageBox.Show("Bạn có chắc chắn muốn xóa ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    // Thuc hien xoa du lieu
+                if (txtmakh.Text != "")
+                { 
+                    conn.Open();
+                    string select1 = "Select departmentId from tb_student where departmentId=" + txtmakh.Text;
+                    OleDbCommand cmd1 = new OleDbCommand(select1, conn);
+                    OleDbDataReader reader1 = cmd1.ExecuteReader();
+
+                    if (reader1.Read())
+                    {
+                        MessageBox.Show("Khoa đang được sử dụng không thể xóa ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else if (MessageBox.Show("Bạn có chắc chắn muốn xóa ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        // Thuc hien xoa du lieu
+                        reader1.Dispose();
+                        cmd1.Dispose();
+                        Console.Write(bindingNavigatorkhoa.BindingSource.Current);
+                        OleDbCommand cmd = new OleDbCommand("delete from tb_department where departmentId =" + txtmakh.Text, conn);
+                        cmd.ExecuteNonQuery();
+                        MessageBox.Show("Xóa dữ liệu thành công", "Thông báo!");
+                        bindingNavigatorkhoa.BindingSource.RemoveCurrent();
+                        // Trả tài nguyên
+                        cmd.Dispose();
+                    }
                     reader1.Dispose();
                     cmd1.Dispose();
-                    Console.Write(bindingNavigatorkhoa.BindingSource.Current);
-                    OleDbCommand cmd = new OleDbCommand("delete from tb_department where departmentId =" + txtmakh.Text , conn);
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Xóa dữ liệu thành công", "Thông báo!");
-                    bindingNavigatorkhoa.BindingSource.RemoveCurrent();
-                    // Trả tài nguyên
-                    cmd.Dispose();
+                    conn.Close();
                 }
-                reader1.Dispose();
-                cmd1.Dispose();
-                conn.Close();
+                else
+                {
+                    bindingNavigatorkhoa.BindingSource.RemoveCurrent();
+                }
+                   
 
             }
         }

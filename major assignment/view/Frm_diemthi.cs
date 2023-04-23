@@ -115,5 +115,30 @@ namespace major_assignment.view
         {
             loadData();
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            if (dgvdiemthi.RowCount == 0)
+                toolStripButton1.Enabled = false;
+
+            else if ((MessageBox.Show("Bạn có chắc chắn muốn xóa ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes))
+            {
+
+                foreach (DataGridViewRow row in dgvdiemthi.SelectedRows)
+                {
+                    conn.Open();
+
+                    OleDbCommand cmd = new OleDbCommand("delete from tb_student_subject where ID =" + row.Cells["id"].Value, conn);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Xóa dữ liệu thành công", "Thông báo!");
+                    bindingNavigatordiemthi.BindingSource.RemoveCurrent();
+                    // Trả tài nguyên
+                    cmd.Dispose();
+                    conn.Close();
+
+                }
+
+            }
+        }
     }
 }
