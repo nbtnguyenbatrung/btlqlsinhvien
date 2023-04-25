@@ -28,6 +28,8 @@ namespace major_assignment.report
 
         private void Frm_xuat_Load(object sender, EventArgs e)
         {
+            String path = Environment.CurrentDirectory;
+            string path2 = path.Replace(@"bin\Debug", "");
             conn.Open();
             OleDbCommand cmd = new OleDbCommand("SELECT tb_student_subject.subjectId, tb_subject.name AS studentName, tb_teacher.name AS teacherName, tb_subject.courseNumber, tb_student_subject.point " +
                         "FROM(tb_student_subject INNER JOIN tb_subject ON tb_student_subject.subjectId = tb_subject.subjectId) " +
@@ -37,7 +39,7 @@ namespace major_assignment.report
             DataTable dt = new DataTable();
             da.Fill(dt);
             ReportDataSource rds = new ReportDataSource("DataSet1", dt);
-            reportViewer1.LocalReport.ReportPath = @"D:\major assignment\major assignment\report\Report1.rdlc";
+            reportViewer1.LocalReport.ReportPath = path2 + @"report\Report1.rdlc";
             reportViewer1.LocalReport.DataSources.Clear();
             reportViewer1.LocalReport.DataSources.Add(rds);
             IList<ReportParameter> param = new List<ReportParameter>();

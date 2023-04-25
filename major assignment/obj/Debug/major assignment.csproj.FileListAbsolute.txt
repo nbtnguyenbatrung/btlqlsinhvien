@@ -55,3 +55,11 @@ D:\major assignment\major assignment\bin\Debug\ru\Microsoft.ReportViewer.Common.
 D:\major assignment\major assignment\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
 D:\major assignment\major assignment\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
 D:\major assignment\major assignment\obj\Debug\major assignment.exe.config
+D:\major assignment\major assignment\obj\Debug\major assignment.csproj.AssemblyReference.cache
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.main.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_khoa.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_monhoc.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_giaovien.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_hocvien.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_hocvien_monhoc.resources
+D:\major assignment\major assignment\obj\Debug\major_assignment.view.Frm_diem.resources

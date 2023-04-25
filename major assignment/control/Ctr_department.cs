@@ -54,6 +54,22 @@ namespace major_assignment.control
             bN.BindingSource = bS;
             dGV.DataSource = bS;
         }
+        public void HienThi(DataGridViewX dGV,
+                            TextBoxX txtmakh,
+                            TextBoxX txttenkh)
+        {
+
+            BindingSource bS = new BindingSource();
+            bS.DataSource = m_DepartmentData.LayDsKhoa();
+
+            txtmakh.DataBindings.Clear();
+            txtmakh.DataBindings.Add("Text", bS, "departmentId");
+
+            txttenkh.DataBindings.Clear();
+            txttenkh.DataBindings.Add("Text", bS, "name");
+            dGV.DataSource = null;
+            dGV.DataSource = bS;
+        }
         #endregion
 
         #region Them moi

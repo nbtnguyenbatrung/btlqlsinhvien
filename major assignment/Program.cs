@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using major_assignment.view;
 
 namespace major_assignment
 {
@@ -16,7 +17,7 @@ namespace major_assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_main());
+            Application.Run(new main());
         }
     }
 }

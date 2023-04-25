@@ -106,7 +106,6 @@ namespace major_assignment.view
             // 
             // btntimkiem
             // 
-            this.btntimkiem.Checked = true;
             this.btntimkiem.Image = ((System.Drawing.Image)(resources.GetObject("btntimkiem.Image")));
             this.btntimkiem.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.btntimkiem.ImagePaddingHorizontal = 8;
@@ -312,7 +311,6 @@ namespace major_assignment.view
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 31);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -426,10 +424,10 @@ namespace major_assignment.view
             this.navigationPanePanel2.Controls.Add(this.txttimkiem);
             this.navigationPanePanel2.Controls.Add(this.labelX3);
             this.navigationPanePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.navigationPanePanel2.Location = new System.Drawing.Point(1, 25);
+            this.navigationPanePanel2.Location = new System.Drawing.Point(1, 1);
             this.navigationPanePanel2.Name = "navigationPanePanel2";
             this.navigationPanePanel2.ParentItem = this.btntimkiem;
-            this.navigationPanePanel2.Size = new System.Drawing.Size(292, 506);
+            this.navigationPanePanel2.Size = new System.Drawing.Size(292, 582);
             this.navigationPanePanel2.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navigationPanePanel2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navigationPanePanel2.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -461,8 +459,8 @@ namespace major_assignment.view
             // navigationPane1
             // 
             this.navigationPane1.CanCollapse = true;
-            this.navigationPane1.Controls.Add(this.navigationPanePanel2);
             this.navigationPane1.Controls.Add(this.navigationPanePanel1);
+            this.navigationPane1.Controls.Add(this.navigationPanePanel2);
             this.navigationPane1.Dock = System.Windows.Forms.DockStyle.Left;
             this.navigationPane1.ItemPaddingBottom = 2;
             this.navigationPane1.ItemPaddingTop = 2;
@@ -504,10 +502,10 @@ namespace major_assignment.view
             this.navigationPanePanel1.Controls.Add(this.labelX2);
             this.navigationPanePanel1.Controls.Add(this.labelX1);
             this.navigationPanePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.navigationPanePanel1.Location = new System.Drawing.Point(1, 1);
+            this.navigationPanePanel1.Location = new System.Drawing.Point(1, 25);
             this.navigationPanePanel1.Name = "navigationPanePanel1";
             this.navigationPanePanel1.ParentItem = this.btnnhaplieu;
-            this.navigationPanePanel1.Size = new System.Drawing.Size(292, 530);
+            this.navigationPanePanel1.Size = new System.Drawing.Size(292, 506);
             this.navigationPanePanel1.Style.Alignment = System.Drawing.StringAlignment.Center;
             this.navigationPanePanel1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
             this.navigationPanePanel1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
@@ -558,6 +556,7 @@ namespace major_assignment.view
             // 
             // btnnhaplieu
             // 
+            this.btnnhaplieu.Checked = true;
             this.btnnhaplieu.Image = ((System.Drawing.Image)(resources.GetObject("btnnhaplieu.Image")));
             this.btnnhaplieu.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.btnnhaplieu.ImagePaddingHorizontal = 8;

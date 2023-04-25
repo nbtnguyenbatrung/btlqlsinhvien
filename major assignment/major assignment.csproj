@@ -176,6 +176,12 @@
     <Compile Include="view\Frm_department.Designer.cs">
       <DependentUpon>Frm_department.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\Frm_diem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_diem.Designer.cs">
+      <DependentUpon>Frm_diem.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\Frm_diemthi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,36 @@
     </Compile>
     <Compile Include="view\Frm_discipline.Designer.cs">
       <DependentUpon>Frm_discipline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_giaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_giaovien.Designer.cs">
+      <DependentUpon>Frm_giaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_hocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_hocvien.Designer.cs">
+      <DependentUpon>Frm_hocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_hocvien_monhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_hocvien_monhoc.Designer.cs">
+      <DependentUpon>Frm_hocvien_monhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_khoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_khoa.Designer.cs">
+      <DependentUpon>Frm_khoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_monhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_monhoc.Designer.cs">
+      <DependentUpon>Frm_monhoc.cs</DependentUpon>
     </Compile>
     <Compile Include="view\Frm_policy.cs">
       <SubType>Form</SubType>
@@ -217,6 +253,12 @@
     </Compile>
     <Compile Include="view\Frm_teacher.Designer.cs">
       <DependentUpon>Frm_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="component\Frm_connect.resx">
       <DependentUpon>Frm_connect.cs</DependentUpon>
@@ -249,11 +291,29 @@
     <EmbeddedResource Include="view\Frm_department.resx">
       <DependentUpon>Frm_department.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_diem.resx">
+      <DependentUpon>Frm_diem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_diemthi.resx">
       <DependentUpon>Frm_diemthi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_discipline.resx">
       <DependentUpon>Frm_discipline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_giaovien.resx">
+      <DependentUpon>Frm_giaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_hocvien.resx">
+      <DependentUpon>Frm_hocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_hocvien_monhoc.resx">
+      <DependentUpon>Frm_hocvien_monhoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_khoa.resx">
+      <DependentUpon>Frm_khoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_monhoc.resx">
+      <DependentUpon>Frm_monhoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_policy.resx">
       <DependentUpon>Frm_policy.cs</DependentUpon>
@@ -269,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_teacher.resx">
       <DependentUpon>Frm_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\main.resx">
+      <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
