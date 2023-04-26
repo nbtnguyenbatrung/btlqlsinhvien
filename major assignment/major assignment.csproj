@@ -218,6 +218,36 @@
     <Compile Include="view\Frm_khoa.Designer.cs">
       <DependentUpon>Frm_khoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\Frm_listgiaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_listgiaovien.Designer.cs">
+      <DependentUpon>Frm_listgiaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_listhocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_listhocvien.Designer.cs">
+      <DependentUpon>Frm_listhocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_listhvmh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_listhvmh.Designer.cs">
+      <DependentUpon>Frm_listhvmh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_listkhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_listkhoa.Designer.cs">
+      <DependentUpon>Frm_listkhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_listmonhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_listmonhoc.Designer.cs">
+      <DependentUpon>Frm_listmonhoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\Frm_monhoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,6 +272,42 @@
     <Compile Include="view\Frm_student_subject.Designer.cs">
       <DependentUpon>Frm_student_subject.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\Frm_suadiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_suadiem.Designer.cs">
+      <DependentUpon>Frm_suadiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_suagiaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_suagiaovien.Designer.cs">
+      <DependentUpon>Frm_suagiaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_suahocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_suahocvien.Designer.cs">
+      <DependentUpon>Frm_suahocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_suahvmh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_suahvmh.Designer.cs">
+      <DependentUpon>Frm_suahvmh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_suakhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_suakhoa.Designer.cs">
+      <DependentUpon>Frm_suakhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_suamonhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_suamonhoc.Designer.cs">
+      <DependentUpon>Frm_suamonhoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\Frm_subject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,6 +319,66 @@
     </Compile>
     <Compile Include="view\Frm_teacher.Designer.cs">
       <DependentUpon>Frm_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_themgiaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_themgiaovien.Designer.cs">
+      <DependentUpon>Frm_themgiaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_themhocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_themhocvien.Designer.cs">
+      <DependentUpon>Frm_themhocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_themhvmh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_themhvmh.Designer.cs">
+      <DependentUpon>Frm_themhvmh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_themkhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_themkhoa.Designer.cs">
+      <DependentUpon>Frm_themkhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_themmonhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_themmonhoc.Designer.cs">
+      <DependentUpon>Frm_themmonhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_xoagiaovien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_xoagiaovien.Designer.cs">
+      <DependentUpon>Frm_xoagiaovien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_xoahocvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_xoahocvien.Designer.cs">
+      <DependentUpon>Frm_xoahocvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_xoahvmh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_xoahvmh.Designer.cs">
+      <DependentUpon>Frm_xoahvmh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_xoakhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_xoakhoa.Designer.cs">
+      <DependentUpon>Frm_xoakhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Frm_xoamonhoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Frm_xoamonhoc.Designer.cs">
+      <DependentUpon>Frm_xoamonhoc.cs</DependentUpon>
     </Compile>
     <Compile Include="view\main.cs">
       <SubType>Form</SubType>
@@ -312,6 +438,21 @@
     <EmbeddedResource Include="view\Frm_khoa.resx">
       <DependentUpon>Frm_khoa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_listgiaovien.resx">
+      <DependentUpon>Frm_listgiaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_listhocvien.resx">
+      <DependentUpon>Frm_listhocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_listhvmh.resx">
+      <DependentUpon>Frm_listhvmh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_listkhoa.resx">
+      <DependentUpon>Frm_listkhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_listmonhoc.resx">
+      <DependentUpon>Frm_listmonhoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_monhoc.resx">
       <DependentUpon>Frm_monhoc.cs</DependentUpon>
     </EmbeddedResource>
@@ -324,11 +465,59 @@
     <EmbeddedResource Include="view\Frm_student_subject.resx">
       <DependentUpon>Frm_student_subject.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_suadiem.resx">
+      <DependentUpon>Frm_suadiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_suagiaovien.resx">
+      <DependentUpon>Frm_suagiaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_suahocvien.resx">
+      <DependentUpon>Frm_suahocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_suahvmh.resx">
+      <DependentUpon>Frm_suahvmh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_suakhoa.resx">
+      <DependentUpon>Frm_suakhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_suamonhoc.resx">
+      <DependentUpon>Frm_suamonhoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_subject.resx">
       <DependentUpon>Frm_subject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\Frm_teacher.resx">
       <DependentUpon>Frm_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_themgiaovien.resx">
+      <DependentUpon>Frm_themgiaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_themhocvien.resx">
+      <DependentUpon>Frm_themhocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_themhvmh.resx">
+      <DependentUpon>Frm_themhvmh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_themkhoa.resx">
+      <DependentUpon>Frm_themkhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_themmonhoc.resx">
+      <DependentUpon>Frm_themmonhoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_xoagiaovien.resx">
+      <DependentUpon>Frm_xoagiaovien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_xoahocvien.resx">
+      <DependentUpon>Frm_xoahocvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_xoahvmh.resx">
+      <DependentUpon>Frm_xoahvmh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_xoakhoa.resx">
+      <DependentUpon>Frm_xoakhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Frm_xoamonhoc.resx">
+      <DependentUpon>Frm_xoamonhoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\main.resx">
       <DependentUpon>main.cs</DependentUpon>

@@ -23,101 +23,6 @@ namespace major_assignment.view
             InitializeComponent();
         }
 
-        private void khoaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_khoa f = new Frm_khoa();
-            //set data config
-            f.TopLevel = false;
-            //xóa trắng panel1
-            panel1.Controls.Clear();
-            //add form vào panel1
-            panel1.Controls.Add(f);
-            //resize form theo panel1
-            f.Width = panel1.Width;
-            f.Height = panel1.Height;
-            //show  form
-            f.Show();
-        }
-
-        private void mônHọcToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_monhoc f = new Frm_monhoc();
-            //set data config
-            f.TopLevel = false;
-            //xóa trắng panel1
-            panel1.Controls.Clear();
-            //add form vào panel1
-            panel1.Controls.Add(f);
-            //resize form theo panel1
-            f.Width = panel1.Width;
-            f.Height = panel1.Height;
-            //show  form
-            f.Show();
-        }
-
-        private void giáoViênToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_giaovien f = new Frm_giaovien();
-            //set data config
-            f.TopLevel = false;
-            //xóa trắng panel1
-            panel1.Controls.Clear();
-            //add form vào panel1
-            panel1.Controls.Add(f);
-            //resize form theo panel1
-            f.Width = panel1.Width;
-            f.Height = panel1.Height;
-            //show  form
-            f.Show();
-        }
-
-        private void họcViênToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_hocvien f = new Frm_hocvien();
-            //set data config
-            f.TopLevel = false;
-            //xóa trắng panel1
-            panel1.Controls.Clear();
-            //add form vào panel1
-            panel1.Controls.Add(f);
-            //resize form theo panel1
-            f.Width = panel1.Width;
-            f.Height = panel1.Height;
-            //show  form
-            f.Show();
-        }
-
-        private void đăngKýHọcToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_hocvien_monhoc f = new Frm_hocvien_monhoc();
-            //set data config
-            f.TopLevel = false;
-            //xóa trắng panel1
-            panel1.Controls.Clear();
-            //add form vào panel1
-            panel1.Controls.Add(f);
-            //resize form theo panel1
-            f.Width = panel1.Width;
-            f.Height = panel1.Height;
-            //show  form
-            f.Show();
-        }
-
-        private void điểmThiToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Frm_diem f = new Frm_diem();
-            //set data config
-            f.TopLevel = false;
-            //xóa trắng panel1
-            panel1.Controls.Clear();
-            //add form vào panel1
-            panel1.Controls.Add(f);
-            //resize form theo panel1
-            f.Width = panel1.Width;
-            f.Height = panel1.Height;
-            //show  form
-            f.Show();
-        }
 
         private void main_Load(object sender, EventArgs e)
         {
@@ -180,6 +85,132 @@ namespace major_assignment.view
                 m_Connection1.Close();
                 return false;
             }
+        }
+
+        private void danhSáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_listkhoa f = new Frm_listkhoa();
+            f.Show();
+        }
+
+        private void thêmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_themkhoa f = new Frm_themkhoa();
+            f.Show();
+        }
+
+        private void sửaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_suakhoa f = new Frm_suakhoa();
+            f.Show();
+        }
+
+        private void xóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_xoakhoa f = new Frm_xoakhoa();
+            f.Show();
+        }
+
+        private void danhSáchToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Frm_listmonhoc f = new Frm_listmonhoc();
+            f.Show();
+        }
+
+        private void thêmToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Frm_themmonhoc f = new Frm_themmonhoc();
+            f.Show();
+        }
+
+        private void sửaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Frm_suamonhoc f = new Frm_suamonhoc();
+            f.Show();
+        }
+
+        private void xóaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Frm_xoamonhoc f = new Frm_xoamonhoc();
+            f.Show();
+        }
+
+        private void danhSáchToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Frm_listgiaovien f = new Frm_listgiaovien();
+            f.Show();
+        }
+
+        private void thêmToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Frm_themgiaovien f = new Frm_themgiaovien();
+            f.Show();
+        }
+
+        private void sửaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Frm_suagiaovien f = new Frm_suagiaovien();
+            f.Show();
+        }
+
+        private void xóaToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Frm_xoagiaovien f = new Frm_xoagiaovien();
+            f.Show();
+        }
+
+        private void danhSáchToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Frm_listhocvien f = new Frm_listhocvien();
+            f.Show();
+        }
+
+        private void thêmToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Frm_themhocvien f = new Frm_themhocvien();
+            f.Show();
+        }
+
+        private void sửaToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Frm_suahocvien f = new Frm_suahocvien();
+            f.Show();
+        }
+
+        private void xóaToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Frm_xoahocvien f = new Frm_xoahocvien();
+            f.Show();
+        }
+
+        private void danhSáchToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Frm_listhvmh f = new Frm_listhvmh();
+            f.Show();
+        }
+
+        private void thêmToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Frm_themhvmh f = new Frm_themhvmh();
+            f.Show();
+        }
+
+        private void sửaToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Frm_suahvmh f = new Frm_suahvmh();
+            f.Show();
+        }
+
+        private void xóaToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Frm_xoahvmh f = new Frm_xoahvmh();
+            f.Show();
+        }
+
+        private void cậpNhậtĐiểmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_suadiem f = new Frm_suadiem();
+            f.Show();
         }
     }
 }
